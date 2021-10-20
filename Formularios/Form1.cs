@@ -16,5 +16,15 @@ namespace ModernUI_Test
         {
             InitializeComponent();
         }
+
+        private void btn_Click(object sender, EventArgs e)
+        {
+            dropDownMenu1.Show(btnSolicitudes, btnSolicitudes.Width, 0);
+        }
+
+        private void btnGestion_Click(object sender, EventArgs e)
+        {
+            dropDownMenu2.Show(btnGestion, btnGestion.Width, 0);
+        }
     }
 }
